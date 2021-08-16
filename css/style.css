@@ -1,0 +1,214 @@
+.container{
+    margin: 0 auto;
+    font-family: 'Roboto' , 'Microsoft JhengHei UI' , -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* banner */
+.banner{
+    border: 1px solid #707070;
+    height: calc(100vh - 0px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: 
+    url(https://github.com/DockorSherowLinZ/week_two_project_home_work_layout_course/blob/main/image/banner.png?raw=true) 
+    center center;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.introduce{
+    padding-top: 308px;
+    padding-bottom: 308px;
+    width: 304px;
+    color: #fff;
+    letter-spacing: 0.24px;
+    font-style: italic;
+}
+.introduce p{
+    line-height: 42px;
+    font-weight: 500 ;
+    font-size: 24px;
+}
+.introduce h2{
+    font-weight: bolder;
+    font-size: 80px;
+    line-height: 106px;
+    margin-bottom: 32px;
+}
+.introduce h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+.introduce ul{
+    display: flex;
+    justify-content: space-between;
+}
+.introduce ul img{
+    display: block;
+}
+/* about */
+.about{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    margin-top: 56px;
+    font-style: italic;
+    line-height: 42px;
+    text-align: center;
+}
+.content h2{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px;
+    margin-bottom: 40px;
+}
+.content img{
+    margin-bottom: 20px;
+}
+.content .information{
+    width: 412px;
+    letter-spacing: -0.24px;
+}
+.information h3{
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+}
+.information .name{
+    margin-bottom: 4px;
+}
+.information .birthday{
+    margin-bottom: 8px;
+}
+.information .graduate{
+    margin-bottom: 24px;
+    line-height: 36px;    
+}
+.information .divider{
+    margin: 0 auto;
+    width: 384px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #000;
+}
+.information .detail{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 56px;
+}
+.detail li{
+    margin-bottom: 28px;
+}
+.detail li span{
+    padding-left: 16px;
+    position: relative;
+}
+.detail li span::before{
+    content:"" ;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* top: calc(50% - 22px/2); */
+}
+/* brand */
+.brand{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    background-color: #000;
+    padding-top: 56px;
+    padding-bottom: 160px;
+    margin-bottom: 56px;
+
+}
+.brand h2{
+    font-size: 64px;
+    margin-bottom:  12px;
+    line-height: 84px;
+}
+.brand h3{
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 42px;
+}
+.brand h4{
+    margin-bottom: 68px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.brand1{
+    margin-bottom: 24px;
+}
+.brand .photo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo img{
+    margin-right: 24px;
+}
+/* works */
+.works{
+    text-align: center;
+}
+.works h2{
+    font-style: italic;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+.works h4{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 56px;
+    font-weight: 500;
+}
+.works{
+    margin-bottom: 144px;
+}
+.works ul{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+.works ul li img{
+    display: block;
+}
+.works ul h4{
+    margin-top: 16px;
+}
+/* footer */
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer .content{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+.footer h2{
+    margin-bottom: 16px;
+    line-height: 84px;
+}
+.footer h3{
+    margin-bottom: 16px;
+}
