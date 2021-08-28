@@ -224,6 +224,8 @@ li:hover .overlayyoutube{
     line-height: 30px;
 }
 .brand1{
+    display: flex;
+    justify-content: center;
     margin-bottom: 24px;
 }
 .brand .photo{
