@@ -1,21 +1,24 @@
+body{
+    font-family: 'Roboto' , 'Microsoft JhengHei UI' , -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    display: block;
+}
+
+/* container */
 .container{
     margin: 0 auto;
-    font-family: 'Roboto' , 'Microsoft JhengHei UI' , -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* banner */
 .banner{
-    border: 1px solid #707070;
-    height: calc(100vh - 0px);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background: 
-    url(https://github.com/DockorSherowLinZ/week_two_project_home_work_layout_course/blob/main/image/banner.png?raw=true) 
-    center center;
-}
-.banner{
     display: flex;
     justify-content: center;
-    align-content: center;
+    background:url(https://github.com/DockorSherowLinZ/week_two_project_home_work_layout_course/blob/main/image/banner.png?raw=true) 
+    center center no-repeat;
+    /* height: calc(100vh - 0px); */
+    height: 958px;
+    background-size: cover;
+    border: 1px solid #707070;
 }
 .introduce{
     padding-top: 308px;
@@ -25,18 +28,19 @@
     letter-spacing: 0.24px;
     font-style: italic;
 }
-.introduce p{
+.introduce span{
+    display: block;
     line-height: 42px;
     font-weight: 500 ;
     font-size: 24px;
 }
-.introduce h2{
+.introduce h1{
     font-weight: bolder;
     font-size: 80px;
     line-height: 106px;
     margin-bottom: 32px;
 }
-.introduce h3{
+.introduce h2{
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
@@ -46,9 +50,82 @@
     display: flex;
     justify-content: space-between;
 }
-.introduce ul img{
-    display: block;
+.introduce li{
+    position: relative;
 }
+.introduce .overlaybehance{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    border-radius: 1rem;
+}
+li:hover .overlaybehance{
+    background-color: rgb(1, 1, 255);
+    opacity: 0.8;
+    transition: .4s ease ;
+    border-radius: 12px;
+}
+.introduce .overlayfacebook{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    border-radius: 1rem;
+}
+li:hover .overlayfacebook{
+    background-color: rgb(55, 55, 196);
+    opacity: 0.8;
+    transition: .4s ease ;
+    border-radius: 12px;
+}
+.introduce .overlayinstagram{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    border-radius: 1rem;
+}
+li:hover .overlayinstagram{
+    background-color: rgb(231, 25, 204);
+    opacity: 0.8;
+    transition: .4s ease ;
+    border-radius: 12px;
+}
+.introduce .overlayyoutube{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    border-radius: 1rem;
+}
+li:hover .overlayyoutube{
+    background-color: rgb(226, 23, 23);
+    opacity: 0.8;
+    transition: .4s ease ;
+    border-radius: 12px;
+}
+
 /* about */
 .about{
     display: flex;
