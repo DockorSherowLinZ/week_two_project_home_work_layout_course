@@ -197,9 +197,7 @@ li:hover .overlayyoutube{
 }
 /* brand */
 .brand{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
     text-align: center;
     font-style: italic;
     color: #fff;
@@ -226,13 +224,14 @@ li:hover .overlayyoutube{
     font-weight: 700;
     line-height: 30px;
 }
-.brand1{
+.brandone{
+    display: flex;
+    justify-content: center;
     margin-bottom: 24px;
 }
 .brand .photo{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
 }
